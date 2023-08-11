@@ -1,0 +1,92 @@
+body {
+  font-family: "Didact Gothic", sans-serif;
+  /* font-family: 'Tilt Neon', cursive; */
+  background-color: #eef0f1;
+}
+
+#name,
+#editname {
+  font-size: x-large;
+  font-weight: bold;
+  color: #567381;
+  border: none;
+  border-bottom: 1px solid silver;
+  outline: none;
+}
+
+#add {
+  background: linear-gradient(45deg, #9edaeb, #19a5d4);
+  padding: 4px 15px;
+  border-radius: 3px;
+  border: 1px solid rgb(194, 223, 235);
+  font-weight: 600;
+}
+#add:hover {
+  transition: 0.5s;
+  background: linear-gradient(
+    207deg,
+    #117a9d 0%,
+    #0b79a4 50%,
+    #19a5d4 50%,
+    #19a5d4 100%
+  );
+  color: aliceblue;
+  box-shadow: 0px 0px 4px #07415a;
+  border: none;
+}
+.bi {
+  border-bottom: 1px solid silver;
+  padding-bottom: 3px;
+  margin-top: 1px;
+}
+
+li {
+  border-radius: 2px;
+  background: linear-gradient(90deg, #19a5d4, #9edaeb);
+  color: #3c5d66;
+  box-shadow: 0px 0px 4px #07415a;
+  list-style: none;
+}
+
+li button {
+  border-radius: 2px;
+  background-color: transparent;
+  border: none;
+  /* border: 1px solid rgb(55, 176, 228); */
+}
+
+li button:hover {
+  transition: 0.5s;
+  box-shadow: 0px 0px 4px #07415a;
+  background-color: #f1f8fb;
+}
+
+#complted {
+  color: #328e3a;
+}
+
+#pending {
+  color: #e33719;
+}
+
+#done li {
+  border-radius: 2px;
+  /* background: linear-gradient(90deg, #60b32c, #9de69d); */
+  background: linear-gradient(90deg, #fff, #fff);
+  color: #3c5d66;
+  /* box-shadow: 0px 0px 4px #0e5a07; */
+  list-style: none;
+}
+
+#done_symbol {
+  border-right: 3px solid #157be1;
+  background: linear-gradient(90deg, #fff, #fff);
+}
+
+#done img {
+  height: 50px;
+}
+
+#done_right_part {
+  background: linear-gradient(90deg, #67c12f, #9be79b);
+}
